@@ -1,0 +1,727 @@
+body {
+    width: 1280px;
+}
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    position: absolute;
+    height: 120px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    
+    /* color-light-xl */
+    
+    background: #FFFFFF;
+}
+
+.header-container {
+    position: absolute;
+    width: 1200px;
+    height: 60px;
+    left: calc(50% - 1200px/2);
+    top: calc(50% - 60px/2);
+}
+
+.header-a {
+    position: absolute;
+    width: 186px;
+    height: 60px;
+    left: 0px;
+    top: 0px;    
+}
+
+.header-title {
+    position: absolute;
+width: 186px;
+height: 35px;
+left: 0px;
+top: calc(50% - 35px/2 - 12.5px);
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    /* or 35px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    
+    /* color-dark-l */
+    
+    color: #545454;
+}
+
+.header-subtitle {
+    position: absolute;
+width: 181px;
+height: 15px;
+left: 4px;
+top: calc(50% - 15px/2 + 22.5px);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    
+    /* color-dark-3xl */
+    
+    color: #292929;
+}
+
+nav {
+    position: absolute;
+    width: 443px;
+    height: 27px;
+    left: 757px;
+    top: 16px;
+}
+
+.link-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 114px;
+    height: 24px;
+    right: 329px;
+    top: 16px;
+}
+
+.link-active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 58px;
+    height: 27px;
+    right: 236px;
+    top: 16px;
+    border-bottom: 3px solid #F1CDB3;
+}
+
+.link-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    right: 95px;
+    top: 16px;
+}
+
+.link-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    right: 0px;
+    top: 16px;
+}
+
+nav ul li:hover {
+    background-color: #F1CDB3;
+}
+
+nav ul li a {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%; 
+    color: #545454;
+}
+
+main {
+    position: absolute;
+    height: 1342px;
+    left: 0%;
+    right: 0%;
+    top: 120px; 
+    background: #F6F6F6;
+}
+
+.main-content {
+    position: absolute;
+    width: 1200px;
+    height: 1162px;
+    left: calc(50% - 1200px/2);
+    top: 80px;
+}
+
+.main-content h2 {
+    position: absolute;
+    width: 400px;
+    height: 90px;
+    left: calc(50% - 400px/2);
+    top: 0px;
+    
+    /* h3 */
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.card-content {
+    position: absolute;
+    width: 1200px;
+    height: 930px;
+    left: 0px;
+    top: 135px;
+}
+
+.card-content ul li {
+    cursor: pointer;
+}
+
+.card-content ul li:hover button{
+    background-color: #F6F6F6;
+}
+.card-1 {
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: calc(50% - 270px/2 - 465px);
+    top: 15px;
+    
+    /* color-light-s */
+    
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.card-2 {
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: calc(50% - 270px/2 - 155px);
+    top: 15px;
+    
+    /* color-light-s */
+    
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.card-3 {
+    position: absolute;
+    left: 51.67%;
+    right: 25.83%;
+    top: 1.61%;
+    bottom: 51.61%;
+    
+    /* color-light-s */
+    
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.card-4 {
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: calc(50% - 270px/2 + 465px);
+    top: 15px;
+    
+    /* color-light-s */
+    
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.card-5 {
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: calc(50% - 270px/2 - 465px);
+    top: 480px;
+    
+    /* color-light-s */
+    
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.card-6 {
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: calc(50% - 270px/2 - 155px);
+    top: 480px;
+    
+    /* color-light-s */
+    
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.card-7 {
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: calc(50% - 270px/2 + 155px);
+    top: 480px;
+    
+    /* color-light-s */
+    
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.card-8 {
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: calc(50% - 270px/2 + 465px);
+    top: 480px;
+    
+    /* color-light-s */
+    
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.card-content ul li p {
+    position: absolute;
+   /* width: 68px;*/
+    height: 23px;
+    left: 95px;
+    top: 290px;
+    
+    /* pets-card-title */
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    /* color-dark-l */
+    
+    color: #545454;
+    
+}
+.card-content ul li button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 40px;
+    width: 192px;
+    height: 52px;
+    left: 41.5px;
+    top: 353px;
+    position: absolute;
+    
+    cursor: pointer;
+    /* color-primary */
+    
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    
+    /* Inside auto layout */
+    background-color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+    
+}
+
+.card-content ul li button a {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+/* identical to box height, or 22px */
+
+    letter-spacing: 0.06em;
+
+/* color-dark-3xl */
+
+    color: #292929;
+}
+
+.main-content .paginator {
+    position: absolute;
+    width: 340px;
+    height: 52px;
+    top: 1110px;
+    display: flex;
+}
+
+.pagin-1 button{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 430px;
+     background-color: #f6f6f6;
+    border: 2px solid #CDCDCD;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    /* color-dark-s */
+    
+    color: #CDCDCD;
+}
+
+.pagin-2 button{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 502px;
+    padding-left: 15px;
+    border: 2px solid #CDCDCD;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: #f6f6f6;
+    /* color-dark-s */
+    
+    color: #CDCDCD;
+}
+
+.pagin-3  button{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 574px;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: #F1CDB3;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    /* color-dark-3xl */
+    padding-left: 18px;
+    color: #292929;
+}
+
+.pagin-4 button{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 646px;
+    
+    cursor: pointer;
+    /* color-primary */
+    
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    /* color-dark-3xl */
+    background-color: #fff;
+    color: #292929;
+    padding-left: 17px;
+}
+
+.pagin-4 button:hover {
+    background-color: #f1cdb3;
+}
+
+.pagin-5 button{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 718px;
+    cursor: pointer;
+    padding-left: 10px;
+    /* color-primary */
+    
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background-color: #fff;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    /* color-dark-3xl */
+
+    color: #292929;
+}
+
+.pagin-5 button:hover {
+    background-color: #f1cdb3;
+}
+
+.container-4 {
+    position: absolute;
+    width: 1280px;
+    height: 350px;
+    margin-left: calc(50% - 1200px/2);
+    top: 1462px; 
+    background: linear-gradient(to right, #4b3c31, #222121);   
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    width: 1200px;
+    height: 310px;
+    top: 40px;
+    left: 40px;
+}
+
+.footer .contacts {
+    position: absolute;
+    width: 280px;
+    height: 234px;
+    top: 16px;
+    margin-left: 20px;
+}
+
+.footer .locations {
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 430px;
+    top: 16px;
+}
+
+.locations img {
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.puppy {
+    position: absolute;
+    width: 300px;
+    height: 310px;
+    left: calc(50% - 300px/2 + 450px);
+    top: 0px;    
+}
+
+.footer h2 {
+    margin-left: -15px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+    
+    letter-spacing: 0.06em;
+    
+    /* color-light-xl */
+    
+    color: #FFFFFF;
+}
+
+.mail {
+    position: absolute;
+    width: 251px;
+    height: 32px;
+    left: 0px;
+    top: 130px; 
+}
+
+.mail img {
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    left: calc(50% - 40px/2 - 119px);
+    top: 15px;
+}
+
+.mail p {
+    position: absolute;
+    width: 191px;
+    height: 23px;
+    left: calc(50% - 191px/2 + 16.5px);
+    
+    
+    /* h4 */
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    
+    letter-spacing: 0.06em;
+    
+    /* color-primary */
+    
+    color: #F1CDB3;
+    
+}
+.phone {
+    position: absolute;
+    width: 239px;
+    height: 32px;
+    left: 0px;
+    top: 202px;    
+}
+ .phone img {
+     margin-left: -15px;
+ }
+
+ .phone p {
+    position: absolute;
+    width: 181px;
+    height: 23px;
+    left: calc(50% - 179px/2 + 10.5px);
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    margin-top: -30px;
+    letter-spacing: 0.06em;
+    
+    /* color-primary */
+    
+    color: #F1CDB3;
+ }
+
+ .location-1 {
+    position: absolute;
+    width: 302px;
+    height: 46px;
+    left: 0px;
+    top: 124px;
+    display: flex;
+ }
+
+ .location-1 img {
+    width: 22px;
+    height: 32px;
+    left: calc(50% - 22px/2 - 140px);
+    top: 160px;
+    
+ }
+
+ .location-1 p {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 23px */
+    
+    letter-spacing: 0.06em;
+    
+    /* color-primary */
+    
+    color: #F1CDB3;
+ }
+
+ .location-2 {     
+    position: absolute;
+    width: 302px;
+    height: 32px;
+    left: 0px;
+    top: 202px;
+    display: flex;
+ }
+
+ .location-2 p {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    
+    letter-spacing: 0.06em;
+    
+    /* color-primary */
+    
+    color: #F1CDB3;
+ }
+
+ .location-2 img {
+    width: 22px;
+    height: 32px;
+    left: calc(50% - 22px/2 - 140px);
+    top: 160px;
+    
+ }
+ 
